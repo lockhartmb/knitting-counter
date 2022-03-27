@@ -5,7 +5,7 @@ import { RowTracker } from './components/RowTracker';
 
 const App = () => {
   const [numOfRows, setNumOfRows] = useState(0);
-  console.log({ numOfRows });
+
   return (
     <div className='App'>
       <header className='App-header'>
